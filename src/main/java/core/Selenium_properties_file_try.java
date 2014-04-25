@@ -26,7 +26,7 @@ public class Selenium_properties_file_try {
 			e.printStackTrace();
 		}
  
-		text_case_id = properties.getProperty("text_case_id");
+		text_case_id = properties.getProperty("test_case_id");
 		url = properties.getProperty("url");
 		title_expected = properties.getProperty("title_expected");
  
